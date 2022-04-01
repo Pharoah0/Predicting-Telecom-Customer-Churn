@@ -49,77 +49,7 @@ Below are the results!
 
 ## Models
 
-#### Vanilla Logistic Regression
-![Model1](./images/Vanilla_Logistic_Regression.jpg)
-Interpretation of churn with a vanilla LR Model:
-* 99 True Negatives: Customers continue service with SyriaTel
-* 24 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 30 False Negatives: The model believes customers will continue service with SyriaTel, but they do not
-* 89 True Positives: Customers do not continue service with SyriaTel
-
-#### Tuned Logistic Regression
-![Model2](./images/Tuned_Logistic_Regression.jpg)
-Interpretation of churn with a tuned LR Model:
-* 69 True Negatives: Customers continue service with SyriaTel
-* 54 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 20 False Negatives: The model believes customers will continue service with SyriaTel, but they do not
-* 99 True Positives: Customers do not continue service with SyriaTel
-
-#### Vanilla KNN
-![Model3](./images/Vanilla_KNN.jpg)
-Interpretation of churn with a vanilla KNN Model:
-* 108 True Negatives: Customers continue service with SyriaTel
-* 15 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 22 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 98 True Positives: Customers do not continue service with SyriaTel
-
-#### Tuned KNN
-![Model4](./images/Tuned_KNN.jpg)
-Interpretation of churn with a tuned KNN Model:
-* 112 True Negatives: Customers continue service with SyriaTel
-* 11 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 24 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 95 True Positives: Customers do not continue service with SyriaTel
-
-#### Vanilla Decision Tree
-![Model5](./images/Vanilla_Decision_Tree.jpg)
-Interpretation of churn with a vanilla Decision Tree:
-* 97 True Negatives: Customers continue service with SyriaTel
-* 26 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 23 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 96 True Positives: Customers do not continue service with SyriaTel
-
-#### Tuned Decision Tree
-![Model6](./images/Tuned_Decision_Tree.jpg)
-Interpretation of churn with Tuned Decision Tree:
-* 103 True Negatives: Customers continue service with SyriaTel
-* 20 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 15 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 104 True Positives: Customers do not continue service with SyriaTel
-
-#### Vanilla Forest
-![Model7](./images/Vanilla_Forest.jpg)
-Interpretation of churn with a Vanilla Forest:
-* 105 True Negatives: Customers continue service with SyriaTel
-* 18 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 16 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 103 True Positives: Customers do not continue service with SyriaTel
-
-#### Tuned Forest
-![Model8](./images/Tuned_Forest.jpg)
-Interpretation of churn with a Tuned Forest:
-* 105 True Negatives: Customers continue service with SyriaTel
-* 18 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 16 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 103 True Positives: Customers do not continue service with SyriaTel
-
-#### Vanilla SVM
-![Model9](./images/Vanilla_SVM.jpg)
-Interpretation of churn with a Vanilla SVM:
-* 104 True Negatives: Customers continue service with SyriaTel
-* 19 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 15 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 104 True Positives: Customers do not continue service with SyriaTel
+I've only kept a small selection of models for this README file. for more indepth results, please see my accompanyting jupyter notebook in this repository
 
 #### Tuned SVM
 ![Model10](./images/Tuned_SVM.jpg)
@@ -128,22 +58,6 @@ Interpretation of churn with a Tuned SVM:
 * 18 False Positives: The model believes customers will not continue service with SyriaTel, but they do
 * 15 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
 * 104 True Positives: Customers do not continue service with SyriaTel
-
-#### AdaBoost
-![Model11](./images/AdaBoost.jpg)
-Interpretation of churn with Adaboost:
-* 96 True Negatives: Customers continue service with SyriaTel
-* 27 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 25 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 94 True Positives: Customers do not continue service with SyriaTel
-
-#### GradientBoost
-![Model12](./images/GradientBoost.jpg)
-Interpretation of churn with GradientBoost:
-* 103 True Negatives: Customers continue service with SyriaTel
-* 20 False Positives: The model believes customers will not continue service with SyriaTel, but they do
-* 20 False Negatives: The model believes customers will continue service with SyriaTel, but they do not 
-* 99 True Positives: Customers do not continue service with SyriaTel
 
 #### VotingClassifier
 ![Model13](./images/VotingClassifier.jpg)
