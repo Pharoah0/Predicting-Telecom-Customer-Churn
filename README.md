@@ -49,7 +49,7 @@ Below are the results!
 
 ## Models
 
-I've only kept a small selection of models for this README file. for more indepth results, please see my accompanyting jupyter notebook in this repository
+I've only kept a small selection of models for this README file. For more indepth results, please see my accompanyting jupyter notebook in this repository!
 
 #### Tuned SVM
 ![Model10](./images/Tuned_SVM.jpg)
